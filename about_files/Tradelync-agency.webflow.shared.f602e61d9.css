@@ -2088,7 +2088,7 @@ textarea.w-input, textarea.w-select {
   --_typography---font-size--paragraphs--text-lg: 18px;
   --_colors---primary-colors--background--primary: var(--_colors---primary-colors--primary-green);
   --_colors---primary-colors--orange: #e3572b;
-  --_colors---primary-colors--secondary-green: #d3ff55;
+  --_colors---primary-colors--secondary-green: #b5a000;
   --_colors---primary-colors--white: #fff;
   --_colors---primary-colors--background--secondary: var(--_colors---primary-colors--secondary-green);
   --_typography---font-size--buttons--button-default: 24px;
@@ -5028,7 +5028,7 @@ a {
 }
 
 .banner-section {
-  background-image: url("https://cdn.prod.website-files.com/6847119f22b5391772dbf625/6847119f22b5391772dbf658_sg%20bg.webp");
+  background-image: url("./banner.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
