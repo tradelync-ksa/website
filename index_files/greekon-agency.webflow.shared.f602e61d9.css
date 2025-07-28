@@ -5028,7 +5028,7 @@ a {
 }
 
 .banner-section {
-  background-image: url("https://cdn.prod.website-files.com/6847119f22b5391772dbf625/6847119f22b5391772dbf658_sg%20bg.webp");
+  background-image: url("./banner.mp4");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5046,7 +5046,7 @@ a {
 .success-section {
   padding-top: var(--section-padding-sm);
   background-color: var(--_colors---primary-colors--background--primary);
-  background-image: url("https://cdn.prod.website-files.com/6847119f22b5391772dbf625/6847119f22b5391772dbf658_sg%20bg.webp");
+  background-image: url("./banner.mp4");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
