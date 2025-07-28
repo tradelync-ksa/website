@@ -294,7 +294,7 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge > img {
+/* .w-webflow-badge, .w-webflow-badge > img {
   box-sizing: unset;
   width: unset;
   height: unset;
@@ -374,7 +374,7 @@ pre.w-code-block code {
   opacity: 1 !important;
   vertical-align: middle !important;
   display: inline-block !important;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
@@ -7041,7 +7041,7 @@ a {
 }
 
 .stat-sections.v2 {
-  background-image: url("https://cdn.prod.website-files.com/6847119f22b5391772dbf625/6847119f22b5391772dbf785_Stat%20BG.webp");
+  background-image: url("");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
