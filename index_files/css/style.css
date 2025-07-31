@@ -4118,7 +4118,7 @@ a {
 .solution-section {
   padding-top: var(--section-padding-lg);
   background-color: var(--_colors---primary-colors--background--primary);
-  padding-bottom: 50px;
+
 }
 
 .solution-content-wrapper {
@@ -7495,10 +7495,6 @@ a {
     margin-bottom: -60px;
   }
 
-  .solution-section {
-    padding-bottom: 40px;
-  }
-
   .solution-content-wrapper {
     max-width: 580px;
   }
@@ -8484,9 +8480,6 @@ a {
     position: static;
   }
 
-  .solution-section {
-    padding-bottom: 30px;
-  }
 
   .logo-image-row {
     grid-column-gap: 30px;
