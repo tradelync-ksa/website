@@ -4372,6 +4372,8 @@ a {
   padding-bottom: 20px;
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .blog-card-line {
