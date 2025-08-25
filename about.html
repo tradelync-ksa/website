@@ -36,6 +36,50 @@
 </head>
 
 <body>
+
+  <style>
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+  }
+
+  .preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  /* Prevent horizontal overflow on all elements */
+</style>
+
+<div class="preloader" id="preloader">
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+  <dotlottie-wc src="https://lottie.host/adf2f117-7afe-401c-a35f-2b4b3320e2a0/5WznAnNzxn.lottie"
+    style="width: 300px;height: 300px" speed="1" autoplay loop></dotlottie-wc>
+</div>
+
+<script>
+  // Hide preloader after page loads
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      const preloader = document.getElementById('preloader');
+      const content = document.getElementById('content');
+
+      preloader.classList.add('hidden');
+      content.classList.add('show');
+    }, 3000); // Adjust delay as needed (1000ms = 1 second)
+  });
+</script>
+
+
   <div class="page-wrapper">
 
     <section id="Header" class="header-section" style="text-shadow: 5px 5px 5px black;">
@@ -560,15 +604,15 @@
     </main>
 
 
-    <footer data-wf--footer--variant="v2" class="footer w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224">
-      <div class="container">
+     <footer data-wf--footer--variant="v2" class="footer w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224">
+      <div class="container " >
         <div class="footer-layout">
           <div class="footer-top-content">
             <div class="footer-logo-block w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224"><a
                 href="#" class="w-inline-block"><img
                   src="./about_files/tradelync2.svg" loading="lazy" alt="Site Logo"
                   class="footer-logo v1 w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224"><img
-                  src="./about_files/tradelync2.svg"
+                  src="./about_files/tradelync2.svg" style="margin-left: 4rem;"
                   loading="lazy" alt="Site Logo"
                   class="footer-logo v2 w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224"></a>
             </div>
@@ -578,27 +622,28 @@
                   <p class="link-text">Company</p>
                 </div>
                 <div class="footer-links"><a href="./index.html"
-                    class="footer-link w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224 w-inline-block">
-                    <p class="link-text">Home</p>
-                  </a><a href="#About" aria-current="page"
                     class="footer-link w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224 w-inline-block w--current">
+                    <p class="link-text">Home</p>
+                  </a><a href="./about.html"
+                    class="footer-link w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224 w-inline-block">
                     <p class="link-text">About Us</p>
-                  </a>
-                </div>
+                  </a><a href="./project.html"
+                    class="footer-link w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224 w-inline-block">
+                    <p class="link-text">Projects </p>
+                  </a></div>
               </div>
               <div class="footer-link-block">
                 <div class="text-color-gray w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224">
                   <p class="link-text">Other Pages</p>
                 </div>
-                <div class="footer-links"><a href="./project"
+                <div class="footer-links"><a href="./career.html"
                     class="footer-link w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224 w-inline-block">
-                    <p class="link-text">Projects</p>
-                  </a>
-                  <a href="./contact.html"
+                    <p class="link-text">Carrer</p>
+
+                  </a><a href="./contact.html"
                     class="footer-link w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224 w-inline-block">
                     <p class="link-text">Contact Us</p>
-         
-                </div>
+                  </a></div>
               </div>
             </div>
             <div id="w-node-a28a795e-0e0b-6b52-8d69-92ca7bb6027e-7bb60257" class="onwer-details">
@@ -614,7 +659,7 @@
                   class="text-orange w-variant-1ca6b895-7af9-3f26-2dab-3aacfc519224">.</span></a>
             </div>
           </div><a data-w-id="570e1855-1f9a-22fb-4254-393d1b45e330" href="./contact.html"
-            class="footer-cta-button w-inline-block" style="background-color: #f3d706;">
+            class="footer-cta-button w-inline-block" style="background-color: #f3d706;" >
             <div class="footer-cta-button-text-wrapper one"
               style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
               <img src="./about_files/684c41454baa306e1475cb51_mail-01.svg" loading="lazy" alt=""
