@@ -2088,7 +2088,7 @@ textarea.w-input, textarea.w-select {
   --_typography---font-size--paragraphs--text-lg: 18px;
   --_colors---primary-colors--background--primary: var(--_colors---primary-colors--primary-green);
   --_colors---primary-colors--orange: #e3572b;
-  --_colors---primary-colors--secondary-green: #b5a000;
+  --_colors---primary-colors--secondary-green: #d3ff55;
   --_colors---primary-colors--white: #fff;
   --_colors---primary-colors--background--secondary: var(--_colors---primary-colors--secondary-green);
   --_typography---font-size--buttons--button-default: 24px;
@@ -7035,7 +7035,7 @@ a {
 }
 
 .stat-sections {
-  background-color: #b5a000;
+  background-color: #d3ff55;
   padding-top: 100px;
   padding-bottom: 85px;
 }
